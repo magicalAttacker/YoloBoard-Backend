@@ -13,6 +13,7 @@ public class User {
     private Integer id;
     private String user;
     private String pass;
+    private Date date;
 
     public Integer getId() {
         return id;
@@ -46,5 +47,4 @@ public class User {
         this.date = date;
     }
 
-    private Date date;
 }
